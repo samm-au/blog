@@ -10,3 +10,4 @@ class AddTimestampToArticles < ActiveRecord::Migration[5.1]
     change_column_null :articles, :created_at, false
     change_column_null :articles, :updated_at, false
   end
+end
